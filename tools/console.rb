@@ -17,14 +17,14 @@ res4 = Restaurant.new("R4")
 res5 = Restaurant.new("R4")
 
 
-rev1 = Review.new(c1,res1,5,"A")
+rev1 = Review.new(c1,res1,15,"A")
 rev2 = Review.new(c2,res1,5,"A")
 rev3 = Review.new(c3,res1,5,"A")
-rev4 = Review.new(c4,res2,1,"A")
+rev4 = Review.new(c4,res2,1.3,"A")
 rev5 = Review.new(c4,res3,4,"A")
-rev6 = Review.new(c4,res1,5,"AGHGHJFIOL")
+rev6 = Review.new(c4,res1,4.8,"AGHGHJFIOL")
 rev7 = Review.new(c5,res4,0,"A")
-rev8 = Review.new(c1,res1,3,"B")
+rev8 = Review.new(c1,res1,3.5,"B")
 
 
 
