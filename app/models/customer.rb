@@ -32,7 +32,11 @@ end
 
 def full_name
     "#{first_name} #{last_name}"
-  end
+end
+    
+def add_review(restaurant, content, rating)
+  review1 = Review.new(self, restaurant, rating, content)
 
+end
 
 end
